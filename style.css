@@ -1,0 +1,165 @@
+* {
+	margin: auto;
+}
+#kpk{}
+
+section {
+	padding: 50pt 0;
+}
+
+section .fitur{
+	width: 1140px;
+}
+
+section a{
+	color: black;
+	width: 1100px;
+}
+
+section a:hover{
+	text-decoration: underline;
+}
+#menu ul li a{
+	color: white;
+}
+
+#menu {
+	padding: 10px 0;
+	width: 100%;
+}
+
+#menu ul {
+	list-style: none;
+	padding: 0;
+}
+
+#menu ul li{
+	display: inline;
+	margin: 0 10px 0 0;
+} 
+
+#menu ul li a {
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color: yellow;
+}
+
+#menu img {
+	width: 20%;
+}
+
+#bagian1 {
+	text-align: center;
+	background-image: url('images/laut2-min.png');
+	background-position: top center;
+	background-attachment: fixed;
+	min-height: 650px;
+	padding-top:150px;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 46pt;
+	font-family: BatmanForeverOutline;
+	color: white;
+	font-weight: normal;
+}
+h4 {
+	font-size: 12pt;
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	font-family: Times New Roman;
+}
+p {
+	margin: 15px 0;
+	font-size: 12pt;
+	color: white;
+	font-family: Times New Roman;
+}
+
+.right {
+	float: right;
+	padding-right: 8px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.fixed {	
+	position: fixed;
+}
+
+.clear {
+	clear: both;
+
+}
+
+.btn {
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 6px 12px;
+
+}
+
+.btn-admin {
+	background-color: #00B4E6;
+	color: white;
+}
+
+.btn-admin1 {
+	color: white;
+}
+
+.sticky .btn-admin:hover{
+	background-color: #6D9BB2;
+	color: white;
+}
+
+.no-sticky .btn-admin:hover{
+	background-color: black;
+	color: white;
+}
+
+.no-sticky {
+	position: absolute;
+}
+
+.sticky {
+	background-color: black;
+	position: fixed;
+}
+
+.sticky ul li a {
+	color: white !important;
+}
+
+.sticky ul li a:hover, #bagian1 a:hover{
+	color: #6D9BB2 !important;
+}
+
+.home {
+	background-color: #2d3e50; 
+	color: white;
+	padding: 50px;
+}
+
+#bagianakhir {
+	background-color: #07B3E5 !important; 
+	padding: 10px;
+}
+
+.h1{
+	margin-top: 15%;
+}
+.m1{
+	font-family: Times New Roman;
+}
+li a.active {
+  background-color: #07B3E5;
+  color: white;
+  padding: 5px;
+}

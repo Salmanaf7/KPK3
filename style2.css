@@ -1,0 +1,235 @@
+* {
+  margin: auto;
+}
+#kpk{}
+
+section {
+  padding: 50pt 0;
+}
+
+section .fitur{
+  width: 1140px;
+}
+
+section a{
+  color: white;
+  width: 1100px;
+}
+
+section a:hover{
+  text-decoration: underline;
+}
+
+body{
+  width: 100%;
+}
+
+h1{
+  color:  white;
+  font-size: 50px;
+  font-family:century gothic; 
+  margin: 0;      
+}
+h2  {
+  font-family:century gothic;
+  color:white;
+  font-size:  15pt;
+
+}
+h3{
+  font-size:  15pt;
+  font-family: century gothic;
+}
+h4{
+  color: white;
+}
+
+a{
+  text-decoration:  none; 
+  font-family: century gothic;
+}
+p{
+  font-family: century gothic;
+} 
+li{
+  font-family: century gothic;
+}
+#section1 .content{
+  padding-left: 12%;
+}
+.polos1{
+	background-color: #4d004d;
+	background-image: url('images/CS.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	min-height: 250px;
+	background-size: 100%;
+	padding-top: 100px;
+}
+.polos3{
+  padding-top:0;  
+}
+#section2 .content{
+  padding-left: 12%;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C131F9;
+}
+
+
+ul.topnav li {float: left;}
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #111;}
+ul.topnav li.icon {display: none;}
+
+#menu ul li a{
+  color: white;
+}
+
+#menu {
+  padding: 10px 0;
+  width: 100%;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#menu ul li{
+  display: inline;
+  margin: 0 10px 0 0;
+} 
+
+#menu ul li a {
+  text-decoration: none;
+}
+
+#menu ul li a:hover {
+  color: yellow;
+}
+
+.right {
+  float: right;
+  padding-right: 8px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.fixed {  
+  position: fixed;
+}
+
+.clear {
+  clear: both;
+
+}
+
+.btn {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+
+}
+
+.btn-admin {
+  background-color: #00B4E6;
+  color: white;
+}
+
+.btn-admin1 {
+	color: white;
+}
+.sticky .btn-admin:hover{
+  background-color: #6D9BB2;
+  color: white;
+}
+
+.no-sticky .btn-admin:hover{
+  background-color: black;
+  color: white;
+}
+
+.no-sticky {
+  position: absolute;
+}
+
+.sticky {
+  background-color: black;
+  position: fixed;
+}
+
+.sticky ul li a {
+  color: white !important;
+}
+
+.sticky ul li a:hover, #bagian1 a:hover{
+  color: #6D9BB2 !important;
+}
+
+.home {
+  background-color: #2d3e50; 
+  color: white;
+  padding: 50px;
+}
+
+#bagianakhir {
+  background-color: #07B3E5 !important; 
+  margin-top: 50px;
+  padding: 10px;
+}
+li a.active {
+  background-color: #07B3E5;
+  color: white;
+  padding: 5px;
+}   

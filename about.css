@@ -1,0 +1,183 @@
+* {
+	margin: auto;
+}
+#kpk{
+}
+
+section {
+	padding: 50pt;
+}
+section,.about {
+}
+#bagian2{
+	background-image: url('images/bgabout-min.png');
+	text-align: center;
+	background-position: top center;
+	background-attachment: fixed;
+	min-height: 580px;
+	padding-top:200px;
+	background-repeat: no-repeat;
+}
+section .fitur{
+	width: 1140px;
+}
+
+section a{
+	color: black;
+	width: 1140px;
+}
+
+section a:hover{
+	text-decoration: underline;
+}
+
+#menu ul li a{
+	color: white;
+}
+
+#menu {
+	padding: 10px 0;
+	width: 100%;
+}
+
+#menu ul {
+	list-style: none;
+	padding: 0;
+}
+
+#menu ul li{
+	display: inline;
+	margin: 0 10px 0 0;
+} 
+
+#menu ul li a {
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color: #07B3E5;
+}
+
+.left{
+	float: left;
+	padding-left: 10px;
+
+}
+
+#bagian2 .left{
+	width: 367px;
+	margin-left: 40px; 
+	padding-left: 30px;
+}
+
+#bagian2 {
+	text-align: center;
+	height: 550px;
+	padding-bottom: 150px;
+}
+
+p{
+	font-size: 15pt;
+	font-family: Dosis;
+	color: white;
+}
+h2{
+	font-size: 40pt;
+	font-family: BatmanForeverAlternate;
+	color: black;
+}
+h3{
+	color: white;
+	font-size: 20pt;
+	font-family: BatmanForeverAlternate;
+}
+h4 {
+	font-size: 12pt;
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	font-family: Times New Roman;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+section a, .a{
+	color: white;
+}
+.right {
+	float: right;
+	padding-right: 8px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.fixed {	
+	position: fixed;
+}
+
+.clear {
+	clear: both;
+}
+
+.btn {
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 6px 12px;
+
+}
+
+.btn-admin {
+	background-color: #00B4E6;
+	color: white;
+}
+.btn-admin1 {
+	color: white;
+}
+
+.sticky .btn-admin:hover{
+	background-color: #6D9BB2;
+	color: white;
+}
+
+.no-sticky .btn-admin:hover{
+	background-color: black;
+	color: white;
+}
+
+.no-sticky {
+	position: absolute;
+}
+
+.sticky {
+	background-color: black;
+	position: fixed;
+}
+
+.sticky ul li a {
+	color: white !important;
+}
+
+.sticky ul li a:hover, #bagian1 a:hover{
+	color: #6D9BB2 !important;
+}
+
+.home {
+	background-color: #2d3e50; 
+	color: white;
+	padding: 50px;
+}
+
+#bagianakhir {
+	background-color: #07B3E5 !important; 
+	padding: 10px;
+}
+li a.active {
+  background-color: #07B3E5;
+  color: white;
+  padding: 5px;
+}

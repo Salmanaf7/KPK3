@@ -1,0 +1,171 @@
+* {
+	margin: auto;
+}
+#kpk{}
+
+section {
+	padding: 50pt 0 5px;
+}
+
+section .fitur{
+	width: 1140px;
+	
+}
+
+section a{
+	color: black;
+	width: 1100px;
+}
+
+section a:hover{
+	text-decoration: underline;
+}
+#menu ul li a{
+	color: black;
+}
+
+#menu {
+	padding: 10px 0;
+	width: 100%;
+	z-index: 999;
+}
+
+#menu ul {
+	list-style: none;
+	padding: 0;
+}
+
+#menu ul li{
+	display: inline;
+	margin: 0 10px 0 0;
+} 
+
+#menu ul li a {
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color: yellow;
+}
+
+#menu img {
+	width: 20%;
+}
+
+h1 {
+	font-size: 46pt;
+	font-family: BatmanForeverOutline;
+	color: white;
+	font-weight: normal;
+}
+.data{
+	font-size: 15pt !important;
+}
+h4 {
+	font-size: 12pt;
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	font-family: Times New Roman;
+}
+p {
+	margin: 15px 0;
+	font-size: 12pt;
+	color: black;
+	font-family: Times New Roman;
+}
+
+.right {
+	float: right;
+	padding-right: 8px;
+}
+#generate {
+	float: right;
+	padding-right: 43%;
+}
+
+/*#generate1 {
+	float: right;
+	padding-right: 80%;
+}
+*/
+.inline {
+	display: inline-block;
+}
+
+.fixed {	
+	position: fixed;
+}
+
+.clear {
+	clear: both;
+
+}
+
+.btn {
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 6px 12px;
+
+}
+
+.btn-admin {
+	background-color: #00B4E6;
+	color: white;
+}
+
+.sticky .btn-admin:hover{
+	background-color: #6D9BB2;
+	color: white ;
+}
+.sticky .btn-admin1{
+	color: white ;
+}
+
+
+.no-sticky .btn-admin:hover{
+	background-color: black;
+	color: white !important;
+}
+
+.no-sticky {
+	position: absolute;
+}
+
+.sticky {
+	background-color: black;
+	position: fixed;
+}
+
+.sticky ul li a {
+	color: white !important;
+}
+
+.sticky ul li a:hover, #bagian1 a:hover{
+	color: #6D9BB2 !important;
+}
+
+.home {
+	background-color: #2d3e50; 
+	color: white;
+	padding: 50px;
+}
+
+#bagianakhir {
+	background-color: #07B3E5 !important; 
+	padding: 10px;
+	margin-top: 100px;
+	margin-bottom: -200px;
+}
+
+.h1{
+	margin-top: 15%;
+}
+.m1{
+	font-family: Times New Roman;
+}
+li a.active {
+  background-color: #07B3E5;
+  color: white;
+  padding: 5px;
+} 
